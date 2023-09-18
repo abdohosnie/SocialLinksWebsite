@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('/Images/pfp.png');
+    background-image: url('pfp.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +24,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-
+    min-width: 30%;
 }
 
 .profile-picture {
@@ -73,23 +73,26 @@ ul li a {
     display: flex;
     align-items: center;
     text-decoration: none;
-    color: #fff;
-    background-color: #000;
-    border: none; 
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgb(15, 15, 15); 
     padding: 10px;
-    transition: background-color 0.2s ease;
+    margin: 10px;
+    transform-origin: center;
 }
 
 ul li a:hover {
-    background-color: #5a5a5a;
+    transform: scale(1.03);
 }
 
 ul li a i {
-    margin-right: 10px;
     font-size: 30px;
 }
 
 ul li a span {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 18px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
