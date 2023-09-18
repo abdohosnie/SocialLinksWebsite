@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url('/Images/pfp.png');
+    background-image: url('pfp.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
