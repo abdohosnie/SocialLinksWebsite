@@ -92,7 +92,11 @@ ul li a i {
 ul li a span {
     font-weight: 400;
     font-size: 18px;
+<<<<<<< HEAD
     width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
+=======
+}
+>>>>>>> 4787db51983fb464b49e622ba4fd9bbd7bfc2e4e
